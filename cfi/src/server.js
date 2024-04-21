@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 const app = express();
 //const os = require('os');
 const dlcHelpers = require("./helpers");
-const vConsts = require("./consts");
+//const vConsts = require("./consts");
 //const fs = require('fs'); 
 
 /*
@@ -21,6 +21,7 @@ if (!vConsts.funcCheckServer() == ''){
 //const __serverPortHttp = 3000;
 
 const __serverPortHttp = 3000; 
+//const __serverIp = 'comofazerinformatica.com.br';
 const __serverIp = 'localhost';
 
 const http = require('http');
@@ -52,7 +53,7 @@ server.listen(__serverPortHttp);
 
     server.on('listening', () => {
 
-        console.log(`Site sendo executado em: http://${__serverIp}:${__serverPortHttp}/`);        
+        console.log(`App(comofazerinformatica) sendo executado em: ${__serverIp}:${__serverPortHttp}`);        
     })   
     server.on('error', (error) => {
         console.log(`Server NOT running at: http://${__serverIp}:${__serverPortHttp}/${error}`);        

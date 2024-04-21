@@ -12,7 +12,8 @@ app.use(express.static(path.join(__dirname, '/')));
 //const http = require('node:http');
 
 //const hostname = '0.0.0.0';
-const hostname = 'http://localhost';
+//const hostname = 'rcndev.comofazerinformatica.com.br';
+const hostname = 'localhost';
 const port = 3001;
 
 
@@ -30,6 +31,8 @@ app.get('/politica_privacidade', (req, res) => {
 //app.listen(port, hostname, () => {
   //console.log(`Server running at http://${hostname}:${port}/`);
 //});
+
+
 app.listen(port, () => {
-  console.log(`Site sendo executado em: http://localhost:${port}`);
+  console.log(`App(rcndev) sendo executado em: ${hostname}:${port}`);
 });
