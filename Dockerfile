@@ -23,10 +23,10 @@ COPY . .
 RUN npm install pm2 -g
 
 ## Container ficará ouvindo os acessos na porta 3000
-##EXPOSE 8080
+EXPOSE 5000
 
 ## Não se repete no Dockerfile
 ## Executa o comando npm start para iniciar o script que que está no package.json
-#CMD [ "node", "./src/server.js" ]
-CMD npm start
+#CMD [ "node", "./server_nginx.js" ]
+CMD node ./server_nginx.js && npm start 
 #CMD ["pm2-runtime", "app.js"]

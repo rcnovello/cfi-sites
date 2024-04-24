@@ -19,6 +19,7 @@ if (!vConsts.funcCheckServer() == ''){
 
 //const __serverPortHttps = 3001; 
 //const __serverPortHttp = 3000;
+//const port = 3000;
 const port = 3000;
 
 //const __serverIp = 'comofazerinformatica.com.br';
