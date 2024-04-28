@@ -72,6 +72,12 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_10/posts_views')
    }); 
 
+   //melhores-campos-estudo-Tecnologia
+   /*app.get('/post_11', (req, res) => {*/
+   app.get('/melhores-campos-estudo-Tecnologia', (req, res) => {
+    res.render('posts_estaticos/posts_11/posts_views')
+   }); 
+
 };
 
 
