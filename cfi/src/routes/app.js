@@ -78,6 +78,11 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_11/posts_views')
    }); 
 
+   app.get('/ferramentas-como-juntar-pdf-ilovepdf', (req, res) => {
+    res.render('posts_estaticos/posts_12/posts_views')
+   }); 
+
+
 };
 
 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <%- include('../../partials/head.ejs') %>      
+</head>
+<body class="main">    
+    <div class="container-fluid containerHeader">
+        <%- include('../../partials/header.ejs') %>
+        <!--<h3>Titulo</h3>-->
+    </div>     
+    <!-- Destaques -->
+    <!-- <%- include('../../posts_destaques.ejs') %> -->
+
+    <main class="container">
+      <!-- Titulo 2 -->
+      <!--<h3 class="pb-4 mb-4 fst-italic border-bottom">From the Firehose</h3>-->
+      <div class="row g-5">
+        <div class="col-md-8">
+          <%- include('posts.ejs') %>  
+        </div>
+        <div class="col-md-4">
+          <div>
+            <div>
+              <!-- Redes Sociais -->    
+              <%- include('../../socials.ejs') %>
+            </div>
+            <div>
+              <!-- Posts Recentes -->
+              <%- include('../../recents.ejs') %>
+            </div>
+          </div>
+        </div>
+      </div>                  
+    </main>
+    <%- include('../../partials/lib-js.ejs') %>
+    <script src="js/index.js"></script>
+    <%- include('../../partials/footer.ejs') %>
+</body>
+</html>
