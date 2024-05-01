@@ -4,25 +4,22 @@
   <div class="container">
 
     <div class="row">
-
       <div class="col-sm-8"><a class="navbar-brand" href="#"><img src="/img/header/log.png" height="60" width="300"></a></div>
       <div class="col-sm-4">
-        
-        <form class="row">
+        <div class="row">
           <div class="col">            
             <input type="email" class="form-control" id="txtEmailInscr" placeholder="Insira seu e-mail">
           </div>
           <div class="col">
-            <button class="btn btn-primary mb-3">Se-Inscrever</button>            
+            <button class="btn btn-primary mb-3" onclick="funcExibirMsgSite('#toastAvisoSite','DISPONÍVEL EM BREVE')">Se-Inscrever</button>                        
           </div>
           <a href="/politica_privacidade">Para se inscrever você concoarda com a nossa Política de Privacidade.</a>
-        </form>
-      
+        </div>   
       </div>
-
     </div>
-
+    <div id="msgSiteDiv" ></div>
     <hr>
+    
 
     <div class="row">
       <div class="col-sm"><b>Recentes</b></div>
@@ -42,15 +39,15 @@
       <div class="col-sm">
         <p><a href="https://www.facebook.com/comofazerinformatica/" target="_blank"><i class="fa-brands fa-facebook"></i> Facebook </a></p>
         <p><a href="https://www.instagram.com/como_fazer_informatica/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
-        <p><i class="fa-brands fa-x-twitter"></i> (twitter)</p>
+        <p><i class="fa-brands fa-x-twitter" ></i> (twitter)</p>
         <p><a href="https://www.youtube.com/@sitecomofazerinformatica" target="_blank"><i class="fa-brands fa-youtube"></i> Youtube</a></p>
       </div>
       <div class="col-sm">
         <p>Baixe nosso aplicativo e receba os últimos alertas de notícias de última hora, as últimas manchetes e artigos diários perto de você.</p>
         
-        <a class="navbar-brand" href="#"><img src="/img/footer/app-store.svg" height="60" width="120"></a>
+        <a class="navbar-brand" href="#"><img src="/img/footer/app-store.svg" onclick="funcExibirMsgSite('#toastAvisoSite','DISPONÍVEL EM BREVE')" height="60" width="120"></a>
 
-        <a class="navbar-brand" href="#"><img src="/img/footer/google-play.svg" height="60" width="120"></a>
+        <a class="navbar-brand" href="#"><img src="/img/footer/google-play.svg" onclick="funcExibirMsgSite('#toastAvisoSite','DISPONÍVEL EM BREVE')" height="60" width="120"></a>
 
 
       </div>

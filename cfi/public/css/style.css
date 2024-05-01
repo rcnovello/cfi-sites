@@ -95,10 +95,11 @@ b{
 
 
 /* Headers */
+/*
 .containerHeader {    
-  /*margin-top: 70px;  */
+  /*margin-top: 70px;  
 }
-
+*/
 
 
 .containerHeader h3{  
@@ -132,8 +133,14 @@ div.msgSistemaPadrao {
   width: 100%;  
   margin-top: 70px;
   color: #f5f5f5;
-  background-color: #4d7498;
+  background-color: #b591ff;
 
+}
+
+/* Mensagens do Sistema*/
+div.msgSite {
+  width: 100%;  
+  background-color:#80bdff
 }
 
 /* Footer */

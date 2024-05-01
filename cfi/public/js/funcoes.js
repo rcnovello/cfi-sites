@@ -288,6 +288,32 @@ __imprimir = (bLandscape=false) => {
     window.print();
 } 
 
+
+
+//ProgressBar de Aviso
+const cElemProgressbarSite = document.getElementById("divProgressbarSite"); 
+const cElemDivProgressBarSite = document.getElementById("divDivProgressBarSite"); 
+const cElemSpamProgressBarSite = document.getElementById("spamProgressBarSite"); 
+const cbtnCloseAvisoSite = document.getElementById("btnCloseAvisoSite");  
+const cToastAvisoSite = document.getElementById("toastAvisoSite"); 
+
+function funcExibirMsgSite(pIdDiv,pMsg){
+
+    const cInstanceToast = bootstrap.Toast.getOrCreateInstance(pIdDiv);    
+    const cMsg = pMsg;
+    cElemProgressbarSite.innerHTML = ``;
+    cElemProgressbarSite.innerHTML = `<h5>${cMsg}</h5>`;  
+        
+    //cToastAvisoSite.hidden = false;
+
+    cInstanceToast.show();
+      
+    setTimeout(() => { 
+      cbtnCloseAvisoSite.click();           
+    }, 6000); 
+  
+};
+/*
 //ProgressBar de Aviso
 const cElemProgressbarAttLaudo = document.getElementById("divProgressbarAttLaudo"); 
 const cElemDivProgressBarAttLaudo = document.getElementById("divDivProgressBarAttLaudo"); 
@@ -300,7 +326,6 @@ const cToastAviso = document.getElementById("toastAviso");
 
 function funcExibirMsgSistema(pIdDiv,pMsg){
 
-    console.log('TEste funcoes');
   
     const cInstanceToast = bootstrap.Toast.getOrCreateInstance(pIdDiv);    
     const cMsg = pMsg;
@@ -317,10 +342,10 @@ function funcExibirMsgSistema(pIdDiv,pMsg){
     }, 9000); 
   
 };
-
+*/
+/*
 const cElemSpamToastAvisoPadrao = document.getElementById("spamAvisoPadrao");
 const cbtnCloseAvisoPadrao = document.getElementById("btnCloseAvisoPadrao");
-
 const cToastAvisoPadrao = document.getElementById("toastAvisoPadrao");      
 
 function funcExibirMsgSistemaPadrao(pIdDiv,pMsg){
@@ -338,7 +363,7 @@ function funcExibirMsgSistemaPadrao(pIdDiv,pMsg){
     }, 9000); 
   
 };
-
+*/
 /*
 //Pegar dados cookie
 function getCookie(name) {
