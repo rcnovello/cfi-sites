@@ -152,12 +152,9 @@ div.msgSite {
 }
 
 /*
-.footer img{
-  height:45px; width:45px 
-}
-*/
-
-
+.footer li:hover{
+  color:red
+}*/
 
 
 
