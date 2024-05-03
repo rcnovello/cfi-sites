@@ -1,8 +1,4 @@
 
-/*tags*/
-b{
-  font-size: x-large;
-};
 
 /* Inicio */
 /*
@@ -145,11 +141,37 @@ div.msgSite {
 
 /* Footer */
 
+.footer b{
+  font-size: x-large;
+  color:#ced4da;
+};
 
 .footer{
   color:#ced4da;
   font-size:small
 }
+
+.footer h6{
+  color:#ced4da;
+  font-size:small
+}
+
+.footer small{
+  visibility:hidden
+}
+
+/*
+.footer li{
+  height: 100px;
+}
+
+.footer img{
+  height: 60px;
+  width: 60px;
+}
+*/
+
+
 
 /*
 .footer li:hover{
