@@ -82,6 +82,10 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_12/posts_views')
    }); 
 
+   app.get('/documentos-pessoais-online-Brasil', (req, res) => {
+    res.render('posts_estaticos/posts_13/posts_views')
+   }); 
+
 
 };
 
