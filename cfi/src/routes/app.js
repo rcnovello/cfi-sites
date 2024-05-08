@@ -21,11 +21,9 @@ module.exports = (app) => {
   }); 
   
 
-  /*
-  app.get('/posts', (req, res) => {
-    res.render('posts_views')   
+  app.get('/sitemap.xml', (req, res) => {
+    res.render('sitemap.xml')
   }); 
-  */
 
   
 
