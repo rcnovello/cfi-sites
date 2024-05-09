@@ -25,6 +25,10 @@ module.exports = (app) => {
     res.render('sitemap.xml')
   }); 
 
+  app.get('/robots.txt', (req, res) => {
+    res.render('robots.txt')
+  }); 
+
   
 
   app.get('/post_1', (req, res) => {
