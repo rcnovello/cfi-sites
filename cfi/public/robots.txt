@@ -1,5 +1,8 @@
-User-agent: Google
-Disallow:
+#
+# robots.txt
+#
 
-User-agent: *
-Disallow: /
+User-Agent: *
+
+# Sitemap
+Sitemap: https://www.comofazerinformatica.com.br/sitemap.xml
