@@ -36,5 +36,10 @@
       <changefreq>daily</changefreq>
       <priority>0.8</priority>
    </url>
-   <!-- Adicione mais URLs conforme necessário -->
+      <url>
+      <loc>https://www.comofazerinformatica.com.br/como-baixar-video-twitter-tiktok-redes-sociais</loc>
+      <lastmod>2024-05-10</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.8</priority>
+   </url>
 </urlset>

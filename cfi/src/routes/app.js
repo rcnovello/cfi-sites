@@ -88,6 +88,10 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_13/posts_views')
    }); 
 
+   app.get('/como-baixar-video-twitter-tiktok-redes-sociais', (req, res) => {
+    res.render('posts_estaticos/posts_14/posts_views')
+   }); 
+
 
 };
 
