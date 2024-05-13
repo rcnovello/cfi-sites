@@ -6,7 +6,7 @@ ENV NODE_ENV=production
 
 ## Define o local onde o app vai ficar no disco do container
 ## Pode ser o diretório que você quiser
-WORKDIR /usr/app2
+WORKDIR /usr/app
 
 ## Copia tudo que começa com package e termina com .json para dentro da pasta /usr/app
 COPY package*.json ./
