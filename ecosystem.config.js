@@ -16,10 +16,8 @@ module.exports = {
           NODE_ENV: "production",
         }
       },*/
-      {
+      /*{
       name: "app-cfi",
-      //exec_mode: 'cluster',
-      //instances: 2,
       script: "./cfi/src/server.js",
       log_date_format: 'DD/MM/YYYY HH:mm:ss.SSS',
       out_file: './logs/NodeOut.log', // Specify the log file for standard output
@@ -28,17 +26,12 @@ module.exports = {
       autorestart: true,
       watch: false,
       max_memory_restart: '1G',
-      /*env: {
-        NODE_ENV: "development",
-      },*/
       env_production: {
         NODE_ENV: "production",
       }
-    },
+    },*/
     {
         name: "app-rcn-dev",
-        //exec_mode: 'cluster',
-        //instances: 2,
         script: "./rcn-dev/src/server.js",
         log_date_format: 'DD/MM/YYYY HH:mm:ss.SSS',
         out_file: './logs/NodeOut.log', // Specify the log file for standard output
@@ -47,14 +40,8 @@ module.exports = {
         autorestart: true,
         watch: false,
         max_memory_restart: '1G',
-        /*env: {
-          NODE_ENV: "development",
-        },*/
         env_production: {
           NODE_ENV: "production",
         }
-      }/*, {  
-       name: 'worker',
-       script: 'worker.js'
-    }*/]
+      }]
   }

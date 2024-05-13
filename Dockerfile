@@ -22,7 +22,7 @@ COPY . .
 RUN npm install pm2 -g
 
 ## Container ficará ouvindo os acessos na porta 3000
-EXPOSE 3000
+EXPOSE 3001
 
 ## Não se repete no Dockerfile
 ## Executa o comando npm start para iniciar o script que que está no package.json
