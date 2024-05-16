@@ -92,6 +92,9 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_14/posts_views')
    }); 
 
+   app.get('/como-utilizar-chat-pdf-leitor-pdf-ask-pdf', (req, res) => {
+    res.render('posts_estaticos/posts_15/posts_views')
+   }); 
 
 };
 
