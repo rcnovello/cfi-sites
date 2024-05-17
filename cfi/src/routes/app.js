@@ -29,7 +29,9 @@ module.exports = (app) => {
     res.render('robots.txt')
   }); 
 
-  
+  app.get('/ads.txt', (req, res) => {
+    res.render('ads.txt')
+  });   
 
   app.get('/post_1', (req, res) => {
     res.render('posts_estaticos/posts_1/posts_views')
