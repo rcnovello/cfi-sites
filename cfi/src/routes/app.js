@@ -98,6 +98,10 @@ module.exports = (app) => {
     res.render('posts_estaticos/posts_15/posts_views')
    }); 
 
+   app.get('/comparativo-entre-modelos-samsung-galaxy-s23-e-a54', (req, res) => {
+    res.render('posts_estaticos/posts_16/posts_views')
+   }); 
+
 };
 
 
