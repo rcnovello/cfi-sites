@@ -4,7 +4,7 @@
   "description": "Sites",
   "main": "ecosystem.config.js",
   "scripts": {
-    "start": "pm2-runtime start ecosystem.config.js  --only app-cfi",
+    "start": "pm2-runtime start ecosystem.config.js  --only app-rcn-dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ronni Correa Novello - ronnicorrea@hotmail.com",
