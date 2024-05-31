@@ -5,6 +5,8 @@
 # Diretórios de compilação
 /node_modules
 /backups
+/logs
+/src/logs
 
 #/leiame
 #/libs
