@@ -16,7 +16,7 @@ module.exports = {
           NODE_ENV: "production",
         }
       },*/
-      {
+      /*{
       name: "app-cfi",
       script: "./cfi/src/server.js",
       log_date_format: 'DD/MM/YYYY HH:mm:ss.SSS',
@@ -29,7 +29,7 @@ module.exports = {
       env_production: {
         NODE_ENV: "production",
       }
-    },
+    },*/
     {
         name: "app-rcn-dev",
         script: "./rcn-dev/src/server.js",
