@@ -29,7 +29,7 @@ module.exports = {
       env_production: {
         NODE_ENV: "production",
       }
-    },
+    }/*,
     {
         name: "app-rcn-dev",
         script: "./rcn-dev/src/server.js",
@@ -43,5 +43,5 @@ module.exports = {
         env_production: {
           NODE_ENV: "production",
         }
-      }]
+      }*/]
   }

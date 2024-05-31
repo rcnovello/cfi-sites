@@ -12,18 +12,19 @@ WORKDIR /usr/app
 COPY package*.json ./
 
 ## Executa npm install para adicionar as dependências e criar a pasta node_modules
+## Executa npm install para adicionar as dependências e criar a pasta node_modules
 RUN npm install --omit=dev
+RUN npm install pm2 -g
+RUN pm2 install pm2-logrotate
 
 ## Copia tudo que está no diretório onde o arquivo Dockerfile está 
 ## para dentro da pasta /usr/app do container
 ## Vamos ignorar a node_modules por isso criaremos um .dockerignore
 COPY . .
 
-RUN npm install pm2 -g
-
 ## Container ficará ouvindo os acessos na porta 3000
 #EXPOSE 3000
-EXPOSE 3001
+EXPOSE 3000
 
 ## Não se repete no Dockerfile
 ## Executa o comando npm start para iniciar o script que que está no package.json
