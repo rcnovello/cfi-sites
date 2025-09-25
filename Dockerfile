@@ -1,6 +1,6 @@
 ## Comando obrigatório
 ## Baixa a imagem do node com versão alpine (versão mais simplificada e leve)
-FROM node:18-alpine
+FROM node:18.19-alpine
 
 ENV NODE_ENV=production
 
@@ -31,6 +31,7 @@ EXPOSE 3000
 #CMD [ "node", "./server_nginx.js" ]
 #CMD ["pm2-runtime", "app.js"]
 CMD ["npm", "start"]
+
 
 
 
